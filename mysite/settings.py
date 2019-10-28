@@ -25,7 +25,7 @@ SECRET_KEY = 'd*as5$kmk#r^h&(%w5xm8&)wm_6wlg@ds)0h6s4=v^e8hy$p#y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', '.github.io', '.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
@@ -36,8 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'blog'
+    'django.contrib.staticfiles'
 ]
 
 MIDDLEWARE = [
