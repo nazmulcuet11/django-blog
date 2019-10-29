@@ -1,2 +1,7 @@
-djangogirlsvenv/
-**/__pycache__
+*.pyc
+*~
+__pycache__
+djangogirlsvenv
+db.sqlite3
+/static
+.DS_Store
